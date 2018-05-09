@@ -5,6 +5,7 @@ module Servant.QuickCheck.Internal.QuickCheck where
 import           Control.Concurrent       (tryReadMVar, newEmptyMVar, tryPutMVar)
 import           Control.Monad            (unless)
 import qualified Data.ByteString.Lazy     as LBS
+import           Data.Monoid              ((<>))
 import           Data.Proxy               (Proxy)
 import qualified Network.HTTP.Client      as C
 import           Network.Wai.Handler.Warp (withApplication)
