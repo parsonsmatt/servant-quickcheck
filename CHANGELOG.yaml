@@ -1,6 +1,13 @@
 upcoming:
 
 releases:
+  - version: "0.0.4.1"
+    changes:
+      - description: Backport "should not happen" error fixes and configurable manager
+        issue: 47, 48
+        authors: parsonsmatt
+        date: 2018-05-10
+
   - version: "0.0.4"
     changes:
 
